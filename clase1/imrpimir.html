@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imprimir dentro del documento</title>
+</head>
+<body>
+    
+    <span id="txt"></span>
+
+    <h1>Imprimir dentro del documento</h1>
+
+    <script>
+        document.write( '7 * 3 = ' );
+        document.write( 7 * 3 );
+        //ubicamos un elemento por su id
+        document.getElementById('txt').innerText = 'usando innerText';
+                                    // escribimos dentro                     
+    </script>
+</body>
+</html>
