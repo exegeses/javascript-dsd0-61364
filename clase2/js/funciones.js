@@ -6,3 +6,8 @@ function pintarVerde()
 {
     caja.style.backgroundColor = '#0a3';
 }
+
+function pintarNaranja()
+{
+    caja.style.backgroundColor = '#ff8000';
+}
